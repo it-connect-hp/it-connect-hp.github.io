@@ -1,0 +1,159 @@
+.carousel {
+  height: 40em;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+#map_canvas {
+  width: 100%;
+  height: 30em;
+}
+
+body *{
+  font-family: Verdana, "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.noborder {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    padding: 0 0;
+}
+
+.ribbon_heading {
+    position: relative;
+    margin: 0 -10px 0 -10px;
+    padding: 10px 20px;
+    /* background: #88ccef; */
+    background: #52b6ec;
+    box-shadow:
+        0 3px 3px 0 rgba(0,0,0,0.1);
+    color: #efefef;
+}
+
+.ribbon_heading:before {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-width: 0 10px 10px 0;
+    border-style: solid;
+    border-color: transparent;
+    /* border-right-color: #7bb8d8; */
+    border-right-color: #5ca2c2;
+}
+
+.ribbon_heading:after {
+    content: " ";
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 10px 10px 0 0;
+    border-style: solid;
+    border-color: transparent;
+    /* border-top-color: #7bb8d8; */
+    border-top-color: #5ca2c2;
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+.modal-dialog-center {
+  padding-top: 15%;
+}
+
+.compliance {
+  color: #555555;
+}
+
+.compliance h1 {
+  color: #444444;
+}
+
+#footer {
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  color: #999;
+}
+
+#footer a {
+  color: #999;
+}
+
+#footer a:hover {
+  color: #52b6ec;
+}
+
+@media(min-width:768px) {
+    .navbar-default {
+        border-color: rgba(34,34,34,.05);
+        background-color: #fff;
+    }
+
+    .navbar-default .navbar-header .navbar-brand {
+        color: #428bca;
+    }
+
+
+    .navbar-default .navbar-header .navbar-brand:hover,
+    .navbar-default .navbar-header .navbar-brand:focus {
+        color: #428bca;
+    }
+
+    .navbar-default .nav > li>a,
+    .navbar-default .nav>li>a:focus {
+        color: #222;
+    }
+
+    .navbar-default .nav > li>a:hover,
+    .navbar-default .nav>li>a:focus:hover {
+        color: #f05f40;
+    }
+}
+
+p.aR{
+  display:block;
+  text-align: right;
+  font-family:monospace;
+}
+
+/*
+.compliance{
+    padding:3em;
+}
+*/
+
+.compliance dt{
+  margin-top: 1em;
+}
+
+.compliance dd{
+  margin-left: 1em;
+}
+
+.compliance li{
+  margin-top: 1em;
+}

@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!--
+    <title>Creative - Start Bootstrap Theme</title>
+    -->
+    <title>アイティ・コネクト株式会社</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href='./css/bootstrap.min.css' type="text/css">
+    <link rel="stylesheet" href='./css/bootstrap.xxs.css' type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- Plugin CSS -->
+    <!--
+    <link rel="stylesheet" href="/css/animate.min.css" type="text/css">
+    -->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href='./css/creative.css' type="text/css">
+    <link rel="stylesheet" href='./css/custom.css' type="text/css">
+
+    <link rel="stylesheet" href='./css/custom_xxs.css' media="screen and (max-width:479px)">
+    <link rel="stylesheet" href='./css/banner.css' type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href='./img/ico/favicon.ico'>
+    <link rel="apple-touch-icon" href='./img/ico/apple-touch-icon.png'>
+    <script src="https://sdk.form.run/js/v2/formrun.js"></script>
+</head>
+
+<body id="page-top" onload="initialize_map();">
+  
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#page-top">
+              <div class="row">
+                <img src='./img/logo_ena.png' class="navbar-logo">アイティ・コネクト株式会社
+              </div>
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                  <a class="page-scroll" href="#page-top">
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li><a class="page-scroll" href="#services">サービス</a></li>
+                <li><a class="page-scroll" href="#portfolio">会社概要</a></li>
+                
+                <li><a class="page-scroll" href="#recruit">採用情報</a></li>
+                <li><a class="page-scroll" href="#contact">お問い合わせ</a></li>
+                <li><a class="page-scroll" href='./compliance_privacy.html'>コンプライアンス</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+</nav>
+
+  <header>
+  <div id="text-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#text-carousel" data-slide-to="0" class="active"></li>
+      <li data-target="#text-carousel" data-slide-to="1"></li>
+      <li data-target="#text-carousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+            <div class="carousel-content">
+              <h2><b>エンジニア募集中！</b></h2>
+              <p class="lead">
+                正社員募集中！<br>
+                外注エンジニア・個人事業主の方も<br>
+                募集しています！！
+              </p>
+            </div>
+      </div>
+      <div class="item">
+            <div class="carousel-content">
+              <h2><b>弊社一次請けの案件のみ</b></h2>
+              <p class="lead">
+                お客様のビジネスと深くかかわれます！<br>
+                様々な提案が出来ます！<br>
+                もう深い商流で仕事をするのを止めませんか？
+              </p>
+            </div>
+      </div>
+      <div class="item">
+            <div class="carousel-content">
+              <h2><b>アイティ・コネクトでは<br>
+                こんな仲間を探しています！！</b></h2>
+              <p class="lead">
+                PM、PMO、開発リーダー、SE、プログラマ<br>
+                Java、C#、PLSQL、Ruby on Rails<br>
+              </p>
+              <a href='./recruiting.html' class="btn btn-primary btn-lg">
+                詳しくはこちらをご覧ください！
+              </a>
+            </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#text-carousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#text-carousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</header>
+
+
+<section id="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">提供可能サービス</h1>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 text-center">
+                <div class="service-box">
+                  <i class="fa fa-desktop fa-4x text-primary"></i>
+                  <h3>オープン系開発</h3>
+                  <p class="text-muted" style="text-align: left;">
+                  java、C#.net、PHP等による開発はもちろんのこと、ruby on railsによる開発も 行っています。<br>
+                  また、mongoDB + solr、hadoop/Hiveを採用したシステム構築にも携わっています。
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 text-center">
+                <div class="service-box">
+                  <i class="fa fa-4x fa-cloud text-primary" data-wow-delay=".1s"></i>
+                  <h3>Webシステム開発</h3>
+                  <p class="text-muted" style="text-align: left;">
+                  Webサイト・Webシステム開発を利用者を意識した形での提案、要件定義、設計、開発までを一貫して行います。<br>
+                  また、運用保守までを弊社でトータルにサポートいたします。
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 text-center">
+                <div class="service-box">
+                  <i class="fa fa-4x fa-cogs text-primary" data-wow-delay=".2s"></i>
+                  <h3>ロボットを使用したサービスの提供</h3>
+                  <p class="text-muted" style="text-align: left;">
+                    各種ロボットを使用したプレゼンテーションサービスの提供が可能です。<br>
+                    固定コンテンツはもちろんのこと、
+                    天気や不動産情報等の変更データの自動取り込み等のシステム開発も対応可能です。
+                    お気軽にご相談下さい。
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 text-center">
+                <div class="service-box">
+                  <i class="fa fa-4x fa-flag-checkered text-primary" data-wow-delay=".3s"></i>
+                  <h3>外部連携システム・ＤＷＨ・レガシーシステムリプレース等の開発</h3>
+                  <p class="text-muted" style="text-align: left;">
+                    各種システム間連携システム開発の対応が可能です。<br>
+                    レガシーシステムのデータ分析、システム調査から開発まで対応可能です。<br>
+                    またデータウェアハウス構築、BIツール等によるデータ提供の提案～対応も承ります。
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 text-center">
+                <div class="service-box">
+                  <i class="fa fa-4x fa-database text-primary" data-wow-delay=".3s"></i>
+                  <h3>システム開発に関するマネージメント、リーダのご提案</h3>
+                  <p class="text-muted" style="text-align: left;">
+                  弊社にはＰＭ、ＰＭＯ、チームリーダの対応が可能な要員が多数おります。<br>
+                  ご相談頂ければ適切な要員をご提案させて頂きます。
+                  </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 text-center">
+                <div class="service-box">
+                  <i class="fa fa-4x fa-sitemap text-primary" data-wow-delay=".3s"></i>
+                  <h3>ERP導入支援およびアドオン開発</h3>
+                  <p class="text-muted" style="text-align: left;">
+                  ORACLE EBSの導入支援およびアドオン開発のサービスを提供致します。<br>
+                  EBSに関しては多数の経験があります。
+                  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="bg-secondary" id="portfolio">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">会社概要</h1>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-8 col-md-offset-2">
+          <table class="table">
+            <tr><th class="hidden-xxs">社名</th><td>
+                <p class="visible-xxs"><b>社名</b></p>
+                アイティ・コネクト株式会社</td></tr>
+            <tr><th class="hidden-xxs">所在地</th><td>
+                <p class="visible-xxs"><b>所在地</b></p>
+                東京都港区 西新橋3-4-1 西新橋ビル 5F</td></tr>
+            <tr><th class="hidden-xxs">設立</th><td>
+                <p class="visible-xxs"><b>設立</b></p>
+                2006年3月</td></tr>
+            <tr><th class="hidden-xxs">資本金</th><td>
+                <p class="visible-xxs"><b>資本金</b></p>
+                1,000万円</td></tr>
+            <tr><th class="hidden-xxs">決算期</th><td>
+                <p class="visible-xxs"><b>決算期</b></p>
+                10月31日</td></tr>
+            <tr><th class="hidden-xxs">役員</th><td>
+                <p class="visible-xxs"><b>役員</b></p>
+                代表取締役 社長 安海 通伸</td></tr>
+            <tr><th class="hidden-xxs">沿革</th>
+              <td>
+                <p class="visible-xxs"><b>沿革</b></p>
+                <table class="table-condensed">
+                  <tr>
+                    <td class="noborder">2005/11</td>
+                    <td class="noborder">鎌倉市でシステム開発関係のサービスを個人事業として開業</td></tr>
+                  <tr><td class="noborder">2006/03</td>
+                      <td class="noborder">事業を法人化(資本金100万円)</td></tr>
+                  <tr><td class="noborder">2007/05</td>
+                      <td class="noborder">資本金を1,000万円に増 資</td></tr>
+                  <tr><td class="noborder">2015/09</td>
+                      <td class="noborder">業務拡大につき、本社を港区西新橋に移転</td></tr>
+                  <tr><td class="noborder">2016/10</td>
+                      <td class="noborder">関東ITソフトウェア健康組合に編入</td></tr>
+                  <tr><td class="noborder">2017/03</td>
+                      <td class="noborder">	プライバシーマークの認定取得 [登録番号:17002960(01)]</td></tr>
+                </table>
+              </td>
+            </tr>
+            <tr><th class="hidden-xxs">取引銀行</th>
+              <td>
+                <p class="visible-xxs"><b>取引銀行</b></p>
+                三菱東京UFJ銀行<br>
+                横浜銀行
+              </td>
+            </tr>
+            <tr><th></th><td></td></tr>
+          </table>
+        </div><!--/.col-->
+      </div><!--/.row-->
+    </div>
+</section>
+
+
+
+
+<section id="recruit">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">採用情報</h1>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+            <table class="table">
+  <tr>
+    <th class="nowrap">勤務地</th>
+    <td>首都圏近郊(主に都内)。客先常駐あり。</td>
+  </tr>
+  <tr>
+    <th class="nowrap">勤務時間</th><td>
+      9:00～18:00<br>
+      ※客先常駐時は常駐先に合わせます<br>
+    完全週休２日制<br>
+    </td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+    <th class="nowrap">福利厚生</th>
+    <td>社会保障完備</td>
+  </tr>
+  <tr>
+    <th class="nowrap">その他</th>
+    <td>資格取得推奨制度あり</td>
+  </tr>
+  <tr><th></th><td></td></tr>
+</table>
+
+          </div>
+      </div>
+      <div class="row" style="height: 2em"></div>
+      <div class="row">
+          <div class="col-md-6">
+            <div class="panel panel-default expand">
+  <div class="panel-heading">
+    未経験者採用
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <th class="hidden-xxs noborder nowrap">募集職種</th>
+        <td class="noborder"><p class="visible-xxs"><b>募集職種</b></p>
+          プログラマー</td>
+      </tr>
+      <tr>
+        <th class="hidden-xxs nowrap">雇用形態</th>
+        <td><p class="visible-xxs"><b>雇用形態</b></p>
+          正社員</td>
+      </tr>
+      <tr>
+        <th class="hidden-xxs nowrap">年齢</th>
+        <td><p class="visible-xxs"><b>年齢</b></p>
+          ～35歳まで</td>
+      </tr>
+      <tr>
+        <th class="hidden-xxs nowrap">給与</th>
+        <td><p class="visible-xxs"><b>給与</b></p>
+          月給制 <br>※年齢、社会人としての経験等を考慮の上、決めさせて頂きます</td>
+      </tr>
+    </table>
+    <div class="row vertical-align">
+      <div class="col-xxs-2 col-xs-1">
+        <img src='./img/icon_business_man04.png' 
+             width="45em" class="img-circle">
+      </div>
+      <div class="col-xxs-10 col-xs-11" style="z-index: 0">
+        <div class="popover right show" style="position:relative; max-width:100%;">
+          <div class="arrow"></div>
+          <h3 class="popover-title">
+            未経験でも弊社正社員がOJTで1から技術を教え ます
+          </h3>
+          <div class="popover-content">
+            <p>
+            「自分はIT業界は未経験だから」等と、尻込みする必要は全くありません。<br>
+            みんな最初は未経験なのだから、「最初からできない」のは当然のこと。<br>
+            それを「できる」ようにするために、我々が手助けします。<br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+  <div class="panel-heading">
+    経験者中途採用
+  </div>
+  <div class="panel-body">
+    <table class="table">
+      <tr>
+        <th class="hidden-xxs noborder nowrap">募集職種</th>
+        <td class="noborder"><p class="visible-xxs"><b>募集職種</b></p>
+          エンジニア</td>
+      </tr>
+      <tr>
+        <th class="hidden-xxs nowrap">雇用形態</th>
+        <td><p class="visible-xxs"><b>雇用形態</b></p>
+          正社員 、期間契約社員
+        </td>
+      </tr>
+      <tr>
+        <th class="hidden-xxs nowrap">給与</th>
+        <td><p class="visible-xxs"><b>給与</b></p>
+          年俸制<br>
+          ※経験、前職の給与を考慮の上、決めさせて頂きます
+        </td>
+      </tr>
+    </table>
+
+    <a href="./recruiting.html" class="btn btn-primary btn-lg btn-block">
+      募集の詳細についてはこちら
+    </a>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    協力企業様の募集
+  </div>
+  <div class="panel-body">
+    <a href="./recruiting.html">中途採用の募集要項</a>のエンジニアを募集しております。<br>
+    ご協力頂ける企業様はご連絡ください。
+  </div>
+</div>
+
+          </div>
+      </div>
+    </div>
+</section>
+
+
+<aside class="bg-dark" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="section-heading">お問い合わせ</h1>
+                <br>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-6">
+           <div class="row">
+             <div class="col-lg-12 text-center">
+               <a class="btn btn-default btn-lg btn-block"
+                  href='./contact_form.html'>
+                 <i class="fa fa-envelope"></i>お問い合わせはこちら
+               </a>
+             </div>
+           </div>
+           <div class="row" style="height: 2em"></div>
+           <div class="row">
+             <div class="col-lg-12">
+               <h3 class="section-heading">
+                 <i class="fa fa-map-marker" aria-hidden="true"></i>
+                 所在地
+               </h3>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-12">
+               <address>
+                 <ul class="list-unstyled">
+                   <li>〒105-0003</li>
+                   <li>東京都港区 西新橋3-4-1 西新橋ビル 5F</li>
+                   <br>
+                   <li><i class="fa fa-phone"></i>   03-6435-7757</li>
+                   <li><i class="fa fa-fax"></i>   03-6435-7758</li>
+                 </ul>
+               </address>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-12">
+               <h3 class="section-heading">
+                 <i class="fa fa-compass" aria-hidden="true"></i>
+                 アクセス
+               </h3>
+             </div>
+           </div>
+           <div class="row">
+             <div class="col-lg-12">
+               <ul class="list-unstyled">
+                 <li>ＪＲ新橋駅 から 徒歩１０分</li>
+                 <li>東京メトロ銀座線 虎ノ門駅 から 徒歩１０分</li>
+                 <li>都営三田線 御成門駅 から 徒歩９分</li>
+               </ul>
+             </div>
+           </div>
+           <br>
+           </div><!--/.col-sm-6-->
+           <div class="col-sm-6 visible-lg">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4821308161772!2d139.74896481547478!3d35.66512878019807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b949533026b%3A0xfaa437388dc66a0e!2z44Ki44Kk44OG44Kj44O744Kz44ON44Kv44OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1541149244136" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+           <div class="col-sm-6 visible-md">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4821308161772!2d139.74896481547478!3d35.66512878019807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b949533026b%3A0xfaa437388dc66a0e!2z44Ki44Kk44OG44Kj44O744Kz44ON44Kv44OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1541149244136" width="450" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+           <div class="col-sm-6 visible-sm">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4821308161772!2d139.74896481547478!3d35.66512878019807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b949533026b%3A0xfaa437388dc66a0e!2z44Ki44Kk44OG44Kj44O744Kz44ON44Kv44OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1541149244136" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+           <div class="col-sm-6 visible-xs">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4821308161772!2d139.74896481547478!3d35.66512878019807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b949533026b%3A0xfaa437388dc66a0e!2z44Ki44Kk44OG44Kj44O744Kz44ON44Kv44OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1541149244136" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+           <div class="col-sm-6 hidden-lg hidden-md hidden-sm hidden-xs">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.4821308161772!2d139.74896481547478!3d35.66512878019807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b949533026b%3A0xfaa437388dc66a0e!2z44Ki44Kk44OG44Kj44O744Kz44ON44Kv44OI5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1541149244136" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+      </div><!--/.row-->
+    </div>
+</aside>
+
+
+
+  <section id="footer" class="bg-dark">
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center">
+          Copyright (C) 2015 IT-Connect All Right Reserved.
+        </div>
+    </div>
+  </div>
+</section><!--/#footer-->
+
+  <!-- 表示されるモーダルウィンドウ -->
+<div class="modal fade" id="agreementLabel" tabindex="-1" role="dialog" aria-labelledby="agreementLabel">
+  <div class="modal-dialog modal-dialog-center modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe src='./agreement/inquiry.html' style="zoom:1.5" width="100%" height="300" frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">同意しない</button>
+        <button type="button" class="btn btn-primary" onclick="javascript:infomation_mail()" data-dismiss="modal">同意する</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- 表示されるモーダルウィンドウ -->
+<div class="modal fade" id="agreement" tabindex="-1" role="dialog" aria-labelledby="agreementLabel">
+  <div class="modal-dialog modal-dialog-center modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <iframe src='./agreement/recruit.html' style="zoom:1.5" width="100%" height="300" frameborder="0"></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">同意しない</button>
+        <button type="button" class="btn btn-primary" onclick="javascript:recruite_mail()" data-dismiss="modal">同意する</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- jQuery -->
+<script src='./js/jquery.js'></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src='./js/bootstrap.min.js'></script>
+
+<!-- Plugin JavaScript -->
+<script src='./js/jquery.easing.min.js'></script>
+<script src='./js/jquery.fittext.js'></script>
+<script src='./js/wow.min.js'></script>
+<script src='./js/jquery.mailto.js'></script>
+
+<!-- Custom Theme JavaScript -->
+<script src='./js/creative.js'></script>
+<script src='./js/custom.js'></script>
+
+</body>
+</html>

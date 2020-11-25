@@ -1,0 +1,64 @@
+.banner{
+    position: relative;
+    background: #f3f3f3;
+    font-size:2em;
+    margin-bottom:15px;
+    width: 100%;
+    height: 65px;
+}
+.banner a{
+    display: block;
+    color: #333333;
+    padding: 0.50em 0.5em;
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+}
+
+.banner-job{
+    border-left: solid 2.5em #428BCA;
+}
+
+.banner-job:before{
+    font-family: FontAwesome;
+    content: "\f2b5";
+    position: absolute;
+    padding: 0em;
+    color: white;
+    font-weight: normal;
+    left: -1.85em;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner-job a:hover{
+    color: white;
+    background: #428BCA;
+}
+
+.banner-member{
+    border-left: solid 2.5em #999ee7;
+}
+
+.banner-member:before{
+    font-family: FontAwesome;
+    content: "\f2c3";
+    position: absolute;
+    padding: 0em;
+    color: white;
+    font-weight: normal;
+    left: -1.85em;
+    top: 50%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.banner-member a:hover{
+    color: white;
+    background: #999ee7;
+}
