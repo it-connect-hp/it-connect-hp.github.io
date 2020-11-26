@@ -1,0 +1,43 @@
+.navbar-default .navbar-brand {
+  margin-right: 3.125em;
+  margin-left: 1.25em;
+  width: 12em;
+  height: 4em;
+  background: url(../images/logo.png) no-repeat 0 40%;
+  background-size: 100% auto;
+}
+
+#main-slider {
+  background-image: url(../images/slider-bg.jpg);
+  background-attachment: fixed;
+  background-size: 110% auto;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  padding: 8em 0 3em 0;
+  color: red;
+}
+
+#main-slider h1 {
+  font-size: 2.5em;
+  text-shadow: 0em 0em 0.5em rgba(0,0,0,1);
+  -webkit-text-shadow: 0em 0em 0.5em rgba(0,0,0,1);
+  color: #fff;
+}
+
+#main-slider .carousel-content p {
+  font-size: 1.5em;
+  text-shadow: 0em 0em 0.5em rgba(0,0,0,1);
+  -webkit-text-shadow: 0em 0em 0.5em rgba(0,0,0,1);
+  color: #fff;
+}
+
+.carousel {
+  height: 30em;
+}
+
+.modal-dialog-center {
+  padding-top: 20%;
+}
+.modal-lg{
+   width:80%;
+ }
